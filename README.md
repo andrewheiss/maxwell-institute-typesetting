@@ -160,6 +160,14 @@ Clearing local formatting overrides for regular text is easy—select all the te
 
 Finding and replacing with regular expressions (or GREP) is incredibly powerful. If you're not familiar with them, play around with an interactive tutorial/tool at [RegExr](http://regexr.com/). I use [Patterns](http://krillapps.com/patterns/) all the time for testing search strings.
 
+You can use more complicated GREP searches to look for text in other languages. However, these searches aren't perfect—they won't pick up on spaces between words or punctuation, so if you try to replace all Greek text with a Greek character style, you'll still have English spaces and punctuation (which is fine-ish for Greek, but can cause RTL direction issues for Hebrew or Arabic). Still, they're useful for searching for unstyled inline Greek that might be hiding in a manuscript.
+
+- Arabic: `[\x{0600}-\x{06FF}]`
+- Hebrew: `[\x{0590}-\x{05FF}]`
+- Greek: `[\x{0370}-\x{03FF}]`
+- Extended Greek: `[\x{1F00}-\x{1FFF}]`
+- Example of searching for both Greeks: `([\x{0370}-\x{03FF}\x{1F00}-\x{1FFF}])+`
+
 ### Copyfitting
 
 In older versions of InDesign, copyfitting was a pain, but impressive improvements in InDesigns paragraph rendering engine have made it a lot easier and less necessary. I have a few standard tricks for copyfitting:
