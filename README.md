@@ -208,7 +208,7 @@ Here's what happens in the *Journal of Book of Mormon Studies*:
 
 The only problem with text variables is that they can only pick up one style. If a running head has an italic word in it, the only way to italicize it is to override the text box on the master page, right click on the text variable, convert it to text, and then apply an italic character style to the word. 
 
-## Extracting footnotes
+### Extracting footnotes
 
 InDesign does a poor job with endnotes (i.e. it does not support them at all). When notes come at the end of an article or at the end of a book, they'll either need to be appended to the story (in the case of articles) or added to a separate story (in the case of books).
 
