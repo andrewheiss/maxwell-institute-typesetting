@@ -195,6 +195,20 @@ Here's what happens in the *Journal of Book of Mormon Studies*:
 
 The only problem with text variables is that they can only pick up one style. If a running head has an italic word in it, the only way to italicize it is to override the text box on the master page, right click on the text variable, convert it to text, and then apply an italic character style to the word. 
 
+## Extracting footnotes
+
+InDesign does a poor job with endnotes (i.e. it does not support them at all). When notes come at the end of an article or at the end of a book, they'll either need to be appended to the story (in the case of articles) or added to a separate story (in the case of books).
+
+The easiest way to separate footnotes out from the main text is to do it in Word before placing the manuscript. With the help of a Visual Basic script ([`footnote-separation.vbs`](footnote-separation.vbs)), it's easy:
+
+1. Open the file in Word.
+2. Convert all footnotes to endnotes (Insert \> Footnote \> Convert…) (important: the script looks for *endnotes*, not footnotes, so everything has to be converted first)
+3. Go to the Developer tab (enable in Word preferences \> View \> Ribbon \> Show developer tab), click on "Macros", add a new macro, and edit it
+4. Paste the contents of [`footnote-separation.vbs`](footnote-separation.vbs)
+5. Go back to the Developer tab \> Macros, and run the macro
+
+All notes should be extracted and placed at the bottom of the document. In-text footnote references will be formatted as superscript—when placing the document in InDesign, find/replace local superscript formatting with a superscript character style, and all will be well. You can move the extracted notes to a separate file (if doing a book), or keep them at the bottom (if doing an article).
+
 
 ## Miscellaneous headache-inducing issues
 
