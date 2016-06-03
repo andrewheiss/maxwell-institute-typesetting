@@ -57,9 +57,13 @@ From at least CS2, it was always possible to use RTL languages in the standard, 
 
 The RTL typesetting engine should be enabled in any version of InDesign CC (so you can open an InDesign document with typeset Arabic wherever), but switching your language settings to use "English يعدم العربية" in Creative Cloud app preferences enables the full range of RTL options, allowing you to create special RTL text frames with the ME type tool and work with "Middle East Character Formats" in paragraph and character styles.
 
-![English with Arabic support preference](images/language-selection.png "English with Arabic support preference")
+**English with Arabic support preference**
 
-![Middle East Character Format options](images/paragraph-options.png "Middle East Character Format options")
+![English with Arabic support preference](images/language-selection.png)
+
+**Middle East Character Format options**
+
+![Middle East Character Format options](images/paragraph-options.png)
 
 With this new development, Winsoft has ended development on InDesign ME, stopping at CS5.5. Tasmeem is still available, and is still the only way to use Thomas Milo's nicely designed fonts, but it's still expensive. Instead of using Milo's fancy Naskh, METI now uses [Zuhair Albazi Naskh](http://www.omar-type.com/zuhair_albazi_naskh.html), created by a designer in Pakistan who is super friendly and responsive. The font itself is a delight to use, and while InDesign CC doesn't have as many typographic options as Tasmeem did, the font has a nearly complete collection of stylistic sets that let you change all kinds of tiny details (see [page 10 of the font brochure for examples](http://www.omar-type.com/brochures/Brochure%20of%20Zuhair%20Albazi%20Naskh%20Font.pdf)).
 
@@ -173,13 +177,21 @@ You can repeat the same process for any other variable. If you want to have diff
 
 Here's what happens in the *Journal of Book of Mormon Studies*:
 
-![Hidden variables on the title page](images/vars-title.png "Hidden variables on the title page")
+**Hidden variables on the title page**
 
-![Hidden variables on an article start page](images/vars-article-start.png "Hidden variables on an article start page")
+![Hidden variables on the title page](images/vars-title.png)
 
-![Text variable placeholders on the article start master page](images/vars-filled-article-start.png "Text variable placeholders on the article start master page")
+**Hidden variables on an article start page**
 
-![Text variables in action on the article start page](images/vars-master.png "Text variables in action on the article start page")
+![Hidden variables on an article start page](images/vars-article-start.png)
+
+**Text variable placeholders on the article start master page**
+
+![Text variable placeholders on the article start master page](images/vars-filled-article-start.png)
+
+**Text variables in action on the article start page**
+
+![Text variables in action on the article start page](images/vars-master.png)
 
 The only problem with text variables is that they can only pick up one style. If a running head has an italic word in it, the only way to italicize it is to override the text box on the master page, right click on the text variable, convert it to text, and then apply an italic character style to the word. 
 
@@ -213,11 +225,15 @@ With modern version of InDesign, you can position differently-sized pages next t
 
 For instance, this simple cover has three pages (back cover, spine, and front cover):
 
-![Simple cover with three "pages"](images/cover-simple.png "Simple cover with three "pages"")
+**Simple cover with three "pages"**
+
+![Simple cover with three "pages"](images/cover-simple.png)
 
 While this cover has seven (back flap, gap for folding the flap, back cover, spine, front cover, gap for folding the flap, front flap):
 
-![Complex cover with seven "pages"](images/cover-complex.png "Complex cover with seven "pages"")
+**Complex cover with seven "pages"**
+
+![Complex cover with seven "pages"](images/cover-complex.png)
 
 When exporting the cover as PDF, ensure that you export spreads, not pages, and you'll get the whole cover. If you want just the front cover (e.g. for promotional materials), export just that page.
 
