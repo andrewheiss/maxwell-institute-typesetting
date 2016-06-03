@@ -74,6 +74,19 @@ The best way to see how the METI and Maxwell Institute books are set up is to lo
 
 Beyond poking around older books, here are a bunch of tips, tricks, and miscellaneous things I do/use/have discovered.
 
+### Communication, shared files, and archiving
+
+As of 2016, the Maxwell Institute uses Basecamp and Dropbox for storage and communication. There are two important folders in Dropbox:
+
+- **METI Shared**: contains all ongoing METI work
+- **Publications Archive**: contains all past Maxwell Institute work, as well as fonts and logos
+
+When typesetting stuff, I typically would not put it in either of these folders until I was done, mostly so that in-progress files wouldn't get pushed out to everyone the folders are shared with (i.e. I didn't want every intermediate save to sync on everyone's computers). I kept projects in my own folders in the Maxwell Institute Dropbox and only moved them to the shared folders after they were packaged and done.
+
+Both of these folders (*especially* Publications Archive) are huge. Super huge. It's an archive, after all.To avoid cluttering my computer with all these archives, I used Dropbox's selective sync settings (Dropbox \> Preferences \> Account \> Maxwell Institute \> Selective Sync \> Change Settings…) to only download `Publications Archive/Logos` and keep the rest of it off my computer. When archiving a finished project, I would change the selective sync settings to sync that project's archive to my computer, copy the InDesign package there, wait for it to upload, and then stop syncing the folder.
+
+I did not use Dropbox to share intermediate drafts and proofs with the editorial team. Because each book team already communicates through Basecamp, I would upload everything there. I followed a simple naming system for drafts and proofs uploaded to Basecamp: `Book name (yyyy-mm-dd)`, with different variations like `Book name (yyyy-mm-dd, spreads)`, `Book name (yyyy-mm-dd, spreads, with bleed)`, etc.
+
 ### Fonts
 
 - English
