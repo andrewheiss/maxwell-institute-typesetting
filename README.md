@@ -243,13 +243,20 @@ Oh man. Paragraphs that have both RTL and LTR text are a massive pain. Technical
 - Retype the sequence of letters and numbers so that it appears correctly, even if it's not (i.e. if a note ends with a sigla and punctuation like "A1." and InDesign keeps showing it as "A.1" or "1A.", retype it in whatever combination works).
 - Put English text in a separate small text box and paste it inline with the Arabic text, thus creating an anchored text box.
 
-### Diacritics
+### English diacritics
 
 There are two ways to deal with diacritics: use actual Unicode glyphs like ā and ḥ, or fake them with the special METI "Diacritics" font.
 
 It's best to use the actual glyphs. Hunting around for them in InDesign's glyphs panel works, but takes a long time. The easiest solution is to use a program like TextExpander (expensive but nice) or aText (cheap and nice) to create text expansion snippets for the most commonly used diacritic symbols. [I've written a fuller explanation of this method elsewhere](https://www.andrewheiss.com/blog/2009/04/26/typing-transliterated-arabic-quickly/). All I have to do to type "ā" is type `-ija`; to get "ḥ" I type `-ijh`. Super convenient. (Weird InDesign bug though—when expanding these snippets in InDesign, it will pad the letter with spaces on both sides. If you select the h in Muhammad and use text expansion, it'll result in "Mu ḥ ammad" and you'll have to manually get rid of the spaces. It's dumb.)
 
 Not all fonts have all glyphs, though (even Baskerville JSU). In those cases, use the METI "Diacritics" font, which contains floating glyphs with no letterforms by the baseline. Insert a diacritic in front of the letter you want to add it to, then shrink the kerning *in between* the diacritic and the letter until the diacritic is positioned correctly. You'll probably need to adjust the kerning *before* the diacritic too, since it'll end up too close to the letter preceding it.
+
+### Arabic diacritics
+
+As discussed above, Arabic support in InDesign CC isn't as powerful as Tasmeem. In some books (like *Hunayn ibn Ishaq), Arabic text needs to have no dots. With Tasmeem, removing dots was trivial—there was a special tool just for selecting dots. With regular InDesign CC, there are two options:
+
+- **Use the official dotless version of glyphs:** There are a [bunch of dotless letterforms](http://unicode-search.net/unicode-namesearch.pl?term=DOTLESS) officially defined in Unicode, but not all Arabic fonts create glyphs for them. Zuhair Albazi Naskh, for example, supports the dotless ya (ى), but not others.
+- **Fake it:** Create a tiny frame filled with white, paste it in front of the letter that needs its dots removed (pasting makes it an anchored object), and move the box so it covers the dots. (Page 5 in *Hunayn ibn Ishaq* has an example of this in note b.)
 
 
 ## Covers
