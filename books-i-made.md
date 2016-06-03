@@ -3,12 +3,12 @@
 - According to Our Knowledge: A Decade of New Book of Mormon Research
 - Alexandrian Epitomes of Galen
 - An Other Testament: On Typology
-- Medical Aphorisms: Treatises 10–15
-- Medical Aphorisms: Treatises 16–21
 - Apocalypse: Reading Revelation 21–22
 - Evolving Faith: Wanderings of a Mormon Biologist
 - Ḥunayn ibn Isḥāq on His Galen Translations
 - Let Your Hearts and Minds Expand: Reflections on Faith, Reason, Charity, and Beauty
+- Medical Aphorisms: Treatises 10–15
+- Medical Aphorisms: Treatises 16–21
 - Metaphysical Penetrations
 - On Hemorrhoids
 - On Rules
@@ -18,7 +18,6 @@
 - Postponing Heaven: The Three Nephites, the Bodhisattva, and the Mahdi
 - Proofs of Prophecy
 - Reading Nephi Reading Isaiah: 2 Nephi 26–27
-- Apocalypse: Reading Revelation 21–22
 - Schooling the Prophet: How the Book of Mormon Influenced Joseph Smith and the Early Restoration
 - The Life of Holiness: Notes and Reflections on Romans 1, 5-8
 - Twenty Chapters
