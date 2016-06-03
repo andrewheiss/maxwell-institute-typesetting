@@ -2,6 +2,27 @@
 
 [Andrew Heiss](https://www.andrewheiss.com) | June 3, 2016
 
+## Contents
+
+- [tl;dr](#tldr)
+- [A brief history of handling Arabic at the Maxwell Institute](#a-brief-history-of-handling-arabic-at-the-maxwell-institute)
+    - [Word processing](#word-processing)
+    - [Typesetting](#typesetting)
+- [Typesetting tips and tricks](#typesetting-tips-and-tricks)
+    - [Fonts](#fonts)
+    - [Styles on everything](#styles-on-everything)
+    - [Find and replace](#find-and-replace)
+    - [Copyfitting](#copyfitting)
+    - [Text variables and automation](#text-variables-and-automation)
+- [Miscellaneous headache\-inducing issues](#miscellaneous-headache-inducing-issues)
+    - [Character direction](#character-direction)
+    - [Diacritics](#diacritics)
+- [Covers](#covers)
+    - [Barcodes](#barcodes)
+- [Converting to HTML](#converting-to-html)
+    - [General HTML template](#general-html-template)
+
+
 ## tl;dr
 
 - Use Mellel, Pages, LibreOffice, and/or Word 2015 to deal with Arabic and Hebrew manuscripts
