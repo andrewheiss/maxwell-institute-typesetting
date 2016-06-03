@@ -265,10 +265,10 @@ Here's roughly what I do:
     - `with open(...)` on line 14 should match what's in `blah-raw`
     - `destination = ` on line 9 should match the `blah-clean` folder
     - `first_article_id` on line 8 should be the number that corresponds to the first  `<div>`  with actual content in the exported HTML file. When you export the book as HTML, each story is included as a sequentially numbered `<div>` element (including the half title, title page, copyright, table of contents, etc.). Open the exported HTML file, scroll down until you see the first story with actual content. It will be surrounded with a tag like `<div id="_idContainer009" class="Basic-Text-Frame">`, which would mean that `first_article_id = 9`. 
-    - Run the script with [Python 3](http://www.getpython3.com/) (after installing [BeautifulSoup 4](https://www.crummy.com/software/BeautifulSoup/#Download))
-    - The script uses regular expressions to identify character and paragraph styles (like "Italic") and convert them to semantic HTML (like `<i>`). If you use the styles that currently exist in the last Maxwell Institute book I did (Julie Smith's *Apocalypse*), it should work. If you rename styles or use ones that the script doesn't explicitly look for, the script won't work.
-    - The script will generate individual clean HTML files for each story after `first_article_id` in the `blah-clean` folder
-    - The script is ***exceptionally*** fragile, so good luck.
+- Run the script with [Python 3](http://www.getpython3.com/) (after installing [BeautifulSoup 4](https://www.crummy.com/software/BeautifulSoup/#Download))
+- The script uses regular expressions to identify character and paragraph styles (like "Italic") and convert them to semantic HTML (like `<i>`). If you use the styles that currently exist in the last Maxwell Institute book I did (Julie Smith's *Apocalypse*), it should work. If you rename styles or use ones that the script doesn't explicitly look for, the script won't work.
+- The script will generate individual clean HTML files for each story after `first_article_id` in the `blah-clean` folder
+- The script is ***exceptionally*** fragile, so good luck.
 
 ### General HTML template
 
